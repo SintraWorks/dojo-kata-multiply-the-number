@@ -1,2 +1,1 @@
-def validate():
-    return True
+def multiply(n):
