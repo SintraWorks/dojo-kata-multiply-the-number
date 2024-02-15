@@ -17,3 +17,7 @@ def describe_multiply_the_number():
     def validate_that_input_neg3_returns_neg15():
         """🧪 expect input -3 to return -15"""
         assert multiply_the_number.multiply(-3) == -15
+
+    def validate_that_input_0_returns_0():
+        """🧪 expect input 0 to return 0"""
+        assert multiply_the_number.multiply(0) == 0
